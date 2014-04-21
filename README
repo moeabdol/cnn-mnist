@@ -1,0 +1,24 @@
+This code implements a full Convolutional Neural Network with a Multi-Layer
+Perceptron and a Logistic Regression classifier. The model trains on the famous
+MNIST dataset.
+
+To run the code it is better to use iPython.
+
+To create the CNN model, run ipython from within the project directory then:
+from main import *
+
+Once the model is built and ipython returns the prompt type in the follwoing to train the network:
+train()
+
+If you want to test how well the classifier classifies the test set type in:
+test()
+
+To actually see some misclassified examples, make sure you train the network first and then type in:
+show_misclassified()
+
+Note:
+If you want to run the code directly using python2.7, then you have to slightly modify the code in main.py.
+I happen to use the interactive iPython because it is easier for me to debug. Most of the code in this 
+project is readily available at www.deeplearning.net. I modified the code so I can show missclassified 
+examples. Enjoy!
+
